@@ -24,7 +24,7 @@ type Repository struct {
 	prototype  reflect.Type
 	store      Store
 	serializer Serializer
-	observers  []func(Event)
+	observers  []func(agg Aggregate, event Event)
 	writer     io.Writer
 	debug      bool
 }
@@ -57,7 +57,7 @@ func WithSerializer(serializer Serializer) Option {
 
 // WithObservers allows observers to watch the saved events; Observers should invoke very short lived operations as
 // calls will block until the observer is finished
-func WithObservers(observers ...func(event Event)) Option {
+func WithObservers(observers ...func(agg Aggregate, event Event)) Option {
 	return func(r *Repository) {
 		r.observers = append(r.observers, observers...)
 	}
@@ -209,7 +209,7 @@ func (r *Repository) Apply(ctx context.Context, command Command) (int, error) {
 	if r.observers != nil {
 		for _, event := range events {
 			for _, observer := range r.observers {
-				observer(event)
+				observer(aggregate, event)
 			}
 		}
 	}

@@ -218,7 +218,7 @@ func TestRepository_SaveNoEvents(t *testing.T) {
 
 func TestWithObservers(t *testing.T) {
 	captured := []eventsource.Event{}
-	observer := func(event eventsource.Event) {
+	observer := func(agg eventsource.Aggregate, event eventsource.Event) {
 		captured = append(captured, event)
 	}
 
