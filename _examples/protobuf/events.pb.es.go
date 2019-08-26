@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/altairsix/eventsource"
+	"github.com/aoldershaw/eventsource"
 	"github.com/gogo/protobuf/proto"
 )
 

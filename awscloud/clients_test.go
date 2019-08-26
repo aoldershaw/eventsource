@@ -3,7 +3,7 @@ package awscloud_test
 import (
 	"testing"
 
-	"github.com/altairsix/eventsource/awscloud"
+	"github.com/aoldershaw/eventsource/awscloud"
 	"github.com/stretchr/testify/assert"
 )
 

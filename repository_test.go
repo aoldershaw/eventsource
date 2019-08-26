@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altairsix/eventsource"
+	"github.com/aoldershaw/eventsource"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

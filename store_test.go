@@ -5,7 +5,7 @@ import (
 
 	"sort"
 
-	"github.com/altairsix/eventsource"
+	"github.com/aoldershaw/eventsource"
 	"github.com/stretchr/testify/assert"
 )
 

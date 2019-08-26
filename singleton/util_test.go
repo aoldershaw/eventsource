@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altairsix/eventsource/singleton"
+	"github.com/aoldershaw/eventsource/singleton"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/stretchr/testify/assert"

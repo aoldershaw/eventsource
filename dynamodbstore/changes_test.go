@@ -3,8 +3,8 @@ package dynamodbstore_test
 import (
 	"testing"
 
-	"github.com/altairsix/eventsource"
-	"github.com/altairsix/eventsource/dynamodbstore"
+	"github.com/aoldershaw/eventsource"
+	"github.com/aoldershaw/eventsource/dynamodbstore"
 	apex "github.com/apex/go-apex/dynamo"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/stretchr/testify/assert"

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/altairsix/eventsource"
-	"github.com/altairsix/eventsource/scenario"
+	"github.com/aoldershaw/eventsource"
+	"github.com/aoldershaw/eventsource/scenario"
 	"github.com/stretchr/testify/assert"
 )
 

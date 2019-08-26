@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/altairsix/eventsource/pgstore"
+	"github.com/aoldershaw/eventsource/pgstore"
 	_ "github.com/lib/pq"
 	"github.com/stretchr/testify/assert"
 )

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/altairsix/eventsource/mysqlstore"
+	"github.com/aoldershaw/eventsource/mysqlstore"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/assert"
 )

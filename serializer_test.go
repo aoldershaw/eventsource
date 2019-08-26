@@ -3,7 +3,7 @@ package eventsource_test
 import (
 	"testing"
 
-	"github.com/altairsix/eventsource"
+	"github.com/aoldershaw/eventsource"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/altairsix/eventsource"
+	"github.com/aoldershaw/eventsource"
 	"github.com/pkg/errors"
 )
 

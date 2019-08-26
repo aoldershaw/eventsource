@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/altairsix/eventsource"
+	"github.com/aoldershaw/eventsource"
 	apex "github.com/apex/go-apex/dynamo"
 )
 

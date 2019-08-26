@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/altairsix/eventsource"
-	"github.com/altairsix/eventsource/mysqlstore"
+	"github.com/aoldershaw/eventsource"
+	"github.com/aoldershaw/eventsource/mysqlstore"
 	"github.com/stretchr/testify/assert"
 )
 

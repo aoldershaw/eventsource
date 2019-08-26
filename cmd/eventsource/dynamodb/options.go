@@ -1,7 +1,7 @@
 package dynamodb
 
 import (
-	"github.com/altairsix/eventsource/dynamodbstore"
+	"github.com/aoldershaw/eventsource/dynamodbstore"
 	"gopkg.in/urfave/cli.v1"
 )
 
